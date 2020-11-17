@@ -5,8 +5,8 @@ body {
 
 p {
     margin: auto;
-    width: 75%;
+    width: auto%;
     border: 20px solid chartreuse;
-    padding: 10px;
+
     
 }
