@@ -2,3 +2,11 @@ body {
     background-color: rgb(54, 46, 46);
     text-align: Center;
 }
+
+p {
+    margin: auto;
+    width: 50%;
+    border: 30px solid chartreuse;
+    padding: 10px;
+    
+}
