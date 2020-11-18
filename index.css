@@ -5,8 +5,9 @@ body {
 
 p {
     margin: auto;
-    width: auto%;
-    border: 20px solid chartreuse;
-
-    
+    width: auto;
+    border: 20px solid chartreuse;    
+}
+a {
+    color:whitesmoke
 }
