@@ -23,3 +23,10 @@ body{
     width:100%;
     height:100%;
 }
+.bonus info {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
