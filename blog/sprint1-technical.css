@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(54, 46, 46);
+    text-align: Center;
+    margin-top: 50px;
+}
+
+p {
+    margin: auto;
+    width: auto;
+    border: 20px solid chartreuse;    
+}
+a {
+    color:whitesmoke
+}
+
+<style>
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    width:100%;
+    height:100%;
+}
+.bonus info {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
