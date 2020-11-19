@@ -30,3 +30,6 @@ body{
 button {
     color: black;
 }
+.buttons {
+    background-color:chartreuse;
+}
