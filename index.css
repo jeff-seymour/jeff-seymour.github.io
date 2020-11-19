@@ -10,7 +10,7 @@ p {
     border: 20px solid chartreuse;    
 }
 a {
-    color:whitesmoke
+    color:slategray
 }
 
 }
@@ -25,5 +25,5 @@ body{
     height:100%;
 
     #backflip {
-       color:slategrey;
+       color:whitesmoke;
       }
