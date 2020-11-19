@@ -9,9 +9,6 @@ p {
     width: auto;
     border: 20px solid chartreuse;    
 }
-a {
-    color:whitesmoke;
-}
 
 }
 <style>
@@ -23,7 +20,11 @@ html{
 body{
     width:100%;
     height:100%;
+}
 
-    #backflip {
-       color:whitesmoke;
-      }
+.backflip {
+   
+    color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+  }
