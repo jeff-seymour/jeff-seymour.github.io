@@ -10,7 +10,7 @@ p {
     border: 20px solid chartreuse;    
 }
 a {
-    color:black
+    color:whitesmoke;
 }
 
 }
@@ -27,3 +27,6 @@ body{
     #backflip {
        color:whitesmoke;
       }
+button {
+    color: black;
+}
