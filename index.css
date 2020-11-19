@@ -29,6 +29,7 @@ body{
       }
 button {
     color: black;
+    background-color: chartreuse;
 }
 .buttons {
     background:chartreuse;
