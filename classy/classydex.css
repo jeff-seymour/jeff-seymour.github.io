@@ -1,0 +1,58 @@
+body {
+    background:rgba(94, 233, 243, 0.521);
+    margin:0;
+    padding: 0;
+    background-image: url(nuphase.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    Background:rgba(143, 146, 146, 0.685);
+    text-align:center;
+    padding: 0% 0% 0% 0%
+    
+}
+
+h2 {
+    padding:0% 0% 0% 35%;
+}
+
+section {
+    background:rgba(180, 177, 177, 0.068);
+    display: flex;
+ 
+    padding:3% 5% 0% 5%;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: rgb(3, 80, 80);
+}
+
+div {
+   
+    width:150px;
+    padding: 0% 0% 0.1px 17%
+}
+
+.features {
+    margin:auto;
+    width: 100%;
+    display:inline-block;
+    padding-left:30% ;
+}
+
+.features img {
+    border-radius:50%;
+    height: 150px;
+    width:150px;
+    box-shadow: teal 0px 0px 8px;
+    border:0.25px solid pink;
+    
+   
+}
