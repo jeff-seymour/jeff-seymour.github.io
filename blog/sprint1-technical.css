@@ -1,32 +1,23 @@
-body {
-    background-color: rgb(54, 46, 46);
-    text-align: Center;
-    margin-top: 50px;
+html {
+    background:rgb(204, 204, 189);
+    background-size: 100;
 }
 
-p {
-    margin: auto;
-    width: auto;
-    border: 20px solid chartreuse;    
-}
-a {
-    color:whitesmoke
-}
-
-<style>
-html{
-    width:100%;
-    height:100%;
-}
-
-body{
-    width:100%;
-    height:100%;
-}
-.bonus info {
-    background-color: tomato;
+header {
+    background-color:#5757578c;
+    background-image: url("axe.jpg");
+    background-repeat: no-repeat;
+    height:500px;
+    width:flex;
     color: white;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-  }
+}
+
+
+
+body {
+background: url("../Images/axe.jpg");
+}
+#riches {
+    text-decoration: underline;
+    color: gold;
+}
