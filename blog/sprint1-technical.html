@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stories and Legends (PAGE title) </title>
-    <Style>
-    <h1> {
-      color:whitesmoke;
-      Back-ground:gray;
-    }
-    h2 {
-      color:royalblue;
-    }
-    p {
-      color:slategrey;
-    }
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url(https://jeff-seymour.github.io/Images/NZBeach.png);
-  background-position: center;
-  height: 100%;
-  padding: 20px;
-  text-align: Center;
-  background-repeat: no-repeat;
-}
-button {
-  background:whitesmoke
-  border:black
-  color:chartreuse
-}
-    
-    </Style>
-    <meta charset="UTF-8">
+    <title> ID vs Class </title>
+    <link rel="stylesheet" href="sprint1-technical.css">
   </head>
-    <body>
-    <h1>
-        The Story of Te Houtaewa </h1>
-    <h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em> (Optional SUB title) </h2>
-    <h3>
-      <h style="color:whitesmoke">10 November 2010</h>
-     </h3>
-    <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
-    </p>
-    <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
-    </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
-    </p>
-  
-    <!-- this is a comment. -->
-<button> <a href="https://jeff-seymour.github.io" > <strong>RETURN</strong> </a>
+  <body>
+    <header>
+    <h1>ID vs Class explained with fantasy tropes </h1>
+    <h3>Have you ever played a game, read a book or seen a film with fantastic heroes who complete epic quests and combat evil? <br>
+    If you have, this should make a lot of sense! If not - I am sure you'll follow along just fine anyway</h3>
+</header>
+<p>
+  The purpose of this page is to provide an easily understood explanation of the difference between ID and Class in an HTML setting.
+  In order to push this point across, I have elected to use a narrative focused around common fantasy tropes. <br>
+  If some of these tropes do not make sense to you, <em>you likely had more friends than me in primary school.</em>
+</p>
+
+<p>
+Imagine if you will, you live in a fantastical world, full of terror and potential - somewhere strange and foreign, like Palmerston North. <br>
+In this world only one person may have a certain name at a time, this is just like an ID tag.<br>
+Your name is Ignacio, this is like an ID tag and is unique to you. <br>
+Originally, your name was actually Sharleen however when you named, unbeknownst to your parents there was another Sharleen just down the road <strong>who was born and allocated the name (ID) Sharleen first.</strong> <br>
+Shortly after naming you, your fabulously wealthy parents passed away which is swell because now you inherit their riches right?<br> 
+<strong>Wrong- big wrong!</strong> Because another person has taken the ID Sharleen after you, the riches will be allocated to that sharleen instead.<br>
+Why? because King & Queen css say so! <br>
+<img src="../Images/missedriches.png" alt="some code" width="500" height="600"> <br>
 
 
-  </body>
+Now technically sharing an ID is no big deal however it can be confusing sometimes and can lead to unexpected situations in different environments. <br>
+<br>For example, when the above code was run on my machine using Google Chrome, I had the following result which in our analogy would have seen a 50/50 split - truly unreliable!<br>
+<img src="../Images/sharedriches.png" width="500" height="600"> <br>
+For this reason it is accepted and best practice to only apply an ID tag once - What does this mean for you? Well now you're a penniless orphan. Goodluck!<br>
+To add insult to injury, you are forced to change your name and choose Ignacio. 
+</p>
+<br>
+<p>
+  Years later, you've somehow survived and decided to become an Adventurer. <br>
+  You'll need a way of defending yourself and choose to be a warrior, looking for work you travel to the warriors guild in Bigtown City <br>
+  There are now three aspects to your character, your ID which is Ignacio and two class tags, Adventurer and warrior. <br>
+  At the warriors guild, you meet many other warriors but no other Ignacios<br>
+  Some of the warriors are also mages, priests and/or birdpeople - anyone can have multiple Classes but of course, only one ID.<br>
+  Time goes by and the King and Queen css make a ruling that those of Warrior class must wear yellow <br>
+  The mages guild down the road make fun until the King and Queen make a ruling that all mages must teleport anyone who touches them to another place <br>
+  The big losers here are the Warriors who are also mages, they are now yellow and must teleport people <br>
+  This shows how having multiple classes can impose multiple rules on a single person or group. <br>
+</p>
+<p>
+  Some time goes by and there is a new ruling made, all Warriors must now wear Violet and all Jonathans must wear turquoise. <br>
+  You're startled when you enter the mess hall and your good friend Jonathan has left his violet armour at home and is wearing a blue-green instead. <br>
+  There is no reason to be afraid, he isnt breaking the law -yes he is a Warrior and should be wearing Violet however he is also the one and only Jonathan (ID vs Class)<br>
+  ID takes priority over Class, Jonathan is a warrior/mage so while he must still teleport people, his ID tag rule overrides the class tag rule <strong> because ID has priority over Class</strong><br>
+</p>
+<p>
+  Years pass by and your reputation grows, you're very busy and it can be difficult to find you <br>
+  You pay a mage to produce a block which when touched, teleports the user directly to you. <br>
+  This is only possible with an ID and is a good example of the few important features of an ID<br>
+  It is worth noting that not every entity which carries a class has to carry an ID or vice versa. <br>
+  This means a fellow with the ID Peterson who lives in Bigtown City could have no 'occupation' - no Class tag<br>
+  Likwise you could have a Warrior/Mage/Cheerleader who doesnt have an ID - I suppose in this analogy that would be some form of Golem<br>
+  Below is a break down of your eventual list of Classes, note that there is only one ID but multiple classes<br>
+  <img src="../Images/Ignacio.png" width="500" height="600"> 
+</p>
+<p>
+  Hopefully by now you're nodding your head in some form of enlightment, if not, let me put this a little simpler; <br>
+  An ID should be unique in each code, it should never be used more than once due to potential conflicts whereas a class can be used all over if needed <br>
+  Classes can stack, you can have multiple classes but only one ID. <br>
+  ID does have some functionality which Class does not, generally it should only be used in order to implement said functions<br>
+  An example of this is pulling the user down to a specific section of a web page.<br>
+</p>
+<p>
+  Finally, it is worth mentioning that you may not need ID or Class at all, unlike a name which almost everyone has, ID and Class are only applied when you wish to implement additional functionality.
+</p>  
+
+
+
+</body>
 </html>
